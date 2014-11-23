@@ -1,0 +1,98 @@
+--------------- Rebuild Started: 11/08/2014 11:42:01 Project: cadeau_marraine, Configuration: ARM GCC 4.7.3 Debug ---------------
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\main.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\cyfitter_cfg.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\cybootloader.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\cymetadata.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\Bootloadable_1.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\LCD_Char_1.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\LCD_Char_1_PM.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\PWM_1.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\PWM_1_PM.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\PWM_2.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\PWM_2_PM.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\Clock_2.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\PWM_3.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\PWM_3_PM.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\Clock_3.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\PWM1.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\PWM2.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\PWM3.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\TC1_ISR.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\TC2_ISR.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\TC3_ISR.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\TIM_4.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\TIM_4_PM.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\Clock_4.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\TC4_ISR.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\Clock_1.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\LCD_Char_1_LCDPort.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\Cm0Start.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\CyBootAsmGnu.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\CyFlash.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\CyLib.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\cyPm.o"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\cyutils.o"
+Deleting file ".\cadeau_marraine.cycdx"
+Deleting file ".\cadeau_marraine.svd"
+Deleting file ".\cadeau_marraine.rpt"
+Deleting file ".\cadeau_marraine_timing.html"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\.deps\C_FILE.P"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\.deps\ARM_C_FILE.P"
+Deleting file ".\CortexM0\ARM_GCC_473\Debug\.deps\GNU_ARM_ASM_FILE.P"
+cydsfit.exe "-.appdatapath" "C:\Users\Cedric\AppData\Local\Cypress Semiconductor\PSoC Creator\3.0" "-.fdsnotice" "-.fdswarpdepfile=warp_dependencies.txt" "-.fdselabdepfile=elab_dependencies.txt" "-.fdsbldfile=generated_files.txt" "-p" "C:\Users\Cedric\Google Drive\Mes Documents\PSoC Creator\cadeau_marraine\cadeau_marraine.cydsn\cadeau_marraine.cyprj" "-d" "CY8C4125AXI-483" "-s" "C:\Users\Cedric\Google Drive\Mes Documents\PSoC Creator\cadeau_marraine\cadeau_marraine.cydsn\Generated_Source\PSoC4" "--" "-yv2" "-v3" "-ygs" "-q10" "-o2" "-.fftcfgtype=LE"
+Elaborating Design...
+HDL Generation ...
+Synthesis ...
+Place and Route ...
+Tech mapping ...
+Analog Placement ...
+Analog Routing ...
+Analog Code Generation ...
+Digital Placement ...
+Digital Routing ...
+Bitstream Generation ...
+Static timing analysis ...
+API Generation ...
+Dependency Generation ...
+Clean Temporary Files ...
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\main.lst -ffunction-sections -c .\main.c -o .\CortexM0\ARM_GCC_473\Debug\main.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\cyfitter_cfg.lst -ffunction-sections -c .\Generated_Source\PSoC4\cyfitter_cfg.c -o .\CortexM0\ARM_GCC_473\Debug\cyfitter_cfg.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\cybootloader.lst -ffunction-sections -c .\Generated_Source\PSoC4\cybootloader.c -o .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\cymetadata.lst -ffunction-sections -c .\Generated_Source\PSoC4\cymetadata.c -o .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\Bootloadable_1.lst -ffunction-sections -c .\Generated_Source\PSoC4\Bootloadable_1.c -o .\CortexM0\ARM_GCC_473\Debug\Bootloadable_1.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\LCD_Char_1.lst -ffunction-sections -c .\Generated_Source\PSoC4\LCD_Char_1.c -o .\CortexM0\ARM_GCC_473\Debug\LCD_Char_1.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\LCD_Char_1_PM.lst -ffunction-sections -c .\Generated_Source\PSoC4\LCD_Char_1_PM.c -o .\CortexM0\ARM_GCC_473\Debug\LCD_Char_1_PM.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\PWM_1.lst -ffunction-sections -c .\Generated_Source\PSoC4\PWM_1.c -o .\CortexM0\ARM_GCC_473\Debug\PWM_1.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\PWM_1_PM.lst -ffunction-sections -c .\Generated_Source\PSoC4\PWM_1_PM.c -o .\CortexM0\ARM_GCC_473\Debug\PWM_1_PM.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\PWM_2.lst -ffunction-sections -c .\Generated_Source\PSoC4\PWM_2.c -o .\CortexM0\ARM_GCC_473\Debug\PWM_2.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\PWM_2_PM.lst -ffunction-sections -c .\Generated_Source\PSoC4\PWM_2_PM.c -o .\CortexM0\ARM_GCC_473\Debug\PWM_2_PM.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\Clock_2.lst -ffunction-sections -c .\Generated_Source\PSoC4\Clock_2.c -o .\CortexM0\ARM_GCC_473\Debug\Clock_2.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\PWM_3.lst -ffunction-sections -c .\Generated_Source\PSoC4\PWM_3.c -o .\CortexM0\ARM_GCC_473\Debug\PWM_3.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\PWM_3_PM.lst -ffunction-sections -c .\Generated_Source\PSoC4\PWM_3_PM.c -o .\CortexM0\ARM_GCC_473\Debug\PWM_3_PM.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\Clock_3.lst -ffunction-sections -c .\Generated_Source\PSoC4\Clock_3.c -o .\CortexM0\ARM_GCC_473\Debug\Clock_3.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\PWM1.lst -ffunction-sections -c .\Generated_Source\PSoC4\PWM1.c -o .\CortexM0\ARM_GCC_473\Debug\PWM1.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\PWM2.lst -ffunction-sections -c .\Generated_Source\PSoC4\PWM2.c -o .\CortexM0\ARM_GCC_473\Debug\PWM2.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\PWM3.lst -ffunction-sections -c .\Generated_Source\PSoC4\PWM3.c -o .\CortexM0\ARM_GCC_473\Debug\PWM3.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\TC1_ISR.lst -ffunction-sections -c .\Generated_Source\PSoC4\TC1_ISR.c -o .\CortexM0\ARM_GCC_473\Debug\TC1_ISR.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\TC2_ISR.lst -ffunction-sections -c .\Generated_Source\PSoC4\TC2_ISR.c -o .\CortexM0\ARM_GCC_473\Debug\TC2_ISR.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\TC3_ISR.lst -ffunction-sections -c .\Generated_Source\PSoC4\TC3_ISR.c -o .\CortexM0\ARM_GCC_473\Debug\TC3_ISR.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\TIM_4.lst -ffunction-sections -c .\Generated_Source\PSoC4\TIM_4.c -o .\CortexM0\ARM_GCC_473\Debug\TIM_4.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\TIM_4_PM.lst -ffunction-sections -c .\Generated_Source\PSoC4\TIM_4_PM.c -o .\CortexM0\ARM_GCC_473\Debug\TIM_4_PM.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\Clock_4.lst -ffunction-sections -c .\Generated_Source\PSoC4\Clock_4.c -o .\CortexM0\ARM_GCC_473\Debug\Clock_4.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\TC4_ISR.lst -ffunction-sections -c .\Generated_Source\PSoC4\TC4_ISR.c -o .\CortexM0\ARM_GCC_473\Debug\TC4_ISR.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\Clock_1.lst -ffunction-sections -c .\Generated_Source\PSoC4\Clock_1.c -o .\CortexM0\ARM_GCC_473\Debug\Clock_1.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\LCD_Char_1_LCDPort.lst -ffunction-sections -c .\Generated_Source\PSoC4\LCD_Char_1_LCDPort.c -o .\CortexM0\ARM_GCC_473\Debug\LCD_Char_1_LCDPort.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\Cm0Start.lst -ffunction-sections -c .\Generated_Source\PSoC4\Cm0Start.c -o .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+arm-none-eabi-as.exe -I. -I./Generated_Source/PSoC4 -mcpu=cortex-m0 -mthumb -g -alh=.\CortexM0\ARM_GCC_473\Debug/CyBootAsmGnu.lst -o .\CortexM0\ARM_GCC_473\Debug\CyBootAsmGnu.o .\Generated_Source\PSoC4\CyBootAsmGnu.s
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\CyFlash.lst -ffunction-sections -c .\Generated_Source\PSoC4\CyFlash.c -o .\CortexM0\ARM_GCC_473\Debug\CyFlash.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\CyLib.lst -ffunction-sections -c .\Generated_Source\PSoC4\CyLib.c -o .\CortexM0\ARM_GCC_473\Debug\CyLib.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\cyPm.lst -ffunction-sections -c .\Generated_Source\PSoC4\cyPm.c -o .\CortexM0\ARM_GCC_473\Debug\cyPm.o
+arm-none-eabi-gcc.exe -I. -I./Generated_Source/PSoC4 -Wno-main -mcpu=cortex-m0 -mthumb -Wall -g -D DEBUG -Wa,-alh=.\CortexM0\ARM_GCC_473\Debug\cyutils.lst -ffunction-sections -c .\Generated_Source\PSoC4\cyutils.c -o .\CortexM0\ARM_GCC_473\Debug\cyutils.o
+arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_473\Debug\cadeau_marraine.a .\CortexM0\ARM_GCC_473\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_473\Debug\Bootloadable_1.o .\CortexM0\ARM_GCC_473\Debug\LCD_Char_1.o .\CortexM0\ARM_GCC_473\Debug\LCD_Char_1_PM.o .\CortexM0\ARM_GCC_473\Debug\PWM_1.o .\CortexM0\ARM_GCC_473\Debug\PWM_1_PM.o .\CortexM0\ARM_GCC_473\Debug\PWM_2.o .\CortexM0\ARM_GCC_473\Debug\PWM_2_PM.o .\CortexM0\ARM_GCC_473\Debug\Clock_2.o .\CortexM0\ARM_GCC_473\Debug\PWM_3.o .\CortexM0\ARM_GCC_473\Debug\PWM_3_PM.o .\CortexM0\ARM_GCC_473\Debug\Clock_3.o .\CortexM0\ARM_GCC_473\Debug\PWM1.o .\CortexM0\ARM_GCC_473\Debug\PWM2.o .\CortexM0\ARM_GCC_473\Debug\PWM3.o .\CortexM0\ARM_GCC_473\Debug\TC1_ISR.o .\CortexM0\ARM_GCC_473\Debug\TC2_ISR.o .\CortexM0\ARM_GCC_473\Debug\TC3_ISR.o .\CortexM0\ARM_GCC_473\Debug\TIM_4.o .\CortexM0\ARM_GCC_473\Debug\TIM_4_PM.o .\CortexM0\ARM_GCC_473\Debug\Clock_4.o .\CortexM0\ARM_GCC_473\Debug\TC4_ISR.o .\CortexM0\ARM_GCC_473\Debug\Clock_1.o .\CortexM0\ARM_GCC_473\Debug\LCD_Char_1_LCDPort.o .\CortexM0\ARM_GCC_473\Debug\CyBootAsmGnu.o .\CortexM0\ARM_GCC_473\Debug\CyFlash.o .\CortexM0\ARM_GCC_473\Debug\CyLib.o .\CortexM0\ARM_GCC_473\Debug\cyPm.o .\CortexM0\ARM_GCC_473\Debug\cyutils.o
+arm-none-eabi-ar.exe: creating .\CortexM0\ARM_GCC_473\Debug\cadeau_marraine.a
+arm-none-eabi-gcc.exe -mthumb -march=armv6-m -T .\Generated_Source\PSoC4\cm0gcc.ld -g -Wl,-Map,.\CortexM0\ARM_GCC_473\Debug\cadeau_marraine.map -specs=nano.specs -Wl,--gc-sections -Wl,--start-group -o .\CortexM0\ARM_GCC_473\Debug\cadeau_marraine.elf .\CortexM0\ARM_GCC_473\Debug\main.o .\CortexM0\ARM_GCC_473\Debug\cybootloader.o .\CortexM0\ARM_GCC_473\Debug\cymetadata.o .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o .\CortexM0\ARM_GCC_473\Debug\cadeau_marraine.a "C:\Program Files (x86)\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM0\ARM_GCC_473\Debug\CyComponentLibrary.a" -Wl,--end-group
+cyelftool.exe -B "C:\Users\Cedric\Google Drive\Mes Documents\PSoC Creator\cadeau_marraine\cadeau_marraine.cydsn\CortexM0\ARM_GCC_473\Debug\cadeau_marraine.elf" --flash_row_size 128 --flash_size 32768 --flash_array_size 32768
+cyelftool.exe -S "C:\Users\Cedric\Google Drive\Mes Documents\PSoC Creator\cadeau_marraine\cadeau_marraine.cydsn\CortexM0\ARM_GCC_473\Debug\cadeau_marraine.elf"
+Flash used: 9790 of 32768 bytes (29,9 %).
+SRAM used: 1904 of 4096 bytes (46,5 %).
+--------------- Rebuild Succeeded: 11/08/2014 11:42:49 ---------------
